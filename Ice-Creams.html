@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    /*start header coding */
+    header {
+        width: 100%;
+    }
+
+    .logo-content {
+        float: left;
+    }
+
+    .logo-content img {
+        width: 250px;
+    }
+
+    .address-content {
+        float: right;
+        padding-right: 20px;
+        padding-top: 10px;
+
+    }
+
+    /*end header coding*/
+    /*start navbar coding*/
+    .navbar {
+        width: 100%;
+        position: absolute;
+        margin-top: 65px;
+        background-color: black;
+    }
+
+    .navbar-nav {
+        list-style-type: none;
+
+    }
+
+    .nav-item {
+        float: left;
+        margin-top: -12px;
+    }
+
+    .nav-item a {
+        display: block;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        margin-left: 10px;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color on hover */
+    .nav-item a:hover {
+        background-color: #FF8503;
+        color: white;
+    }
+
+    .active {
+        background-color: #FF8503;
+        color: white;
+    }
+
+    /*end navbar coding*/
+    /*start introduction photo*/
+    .introduction-pic {
+        width: 100%;
+
+    }
+
+    .introduction-pic img {
+        margin-top: 50px;
+    }
+
+    /*end introduction photo*/
+    /*start section coding*/
+    section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .row-1 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .description-container {
+        width: 20%;
+        height: 350px;
+        padding: 20px;
+        float: left;
+        border: 1px solid #ddd;
+        box-shadow: 0px 0px 10px #ddd;
+        box-sizing: border-box;
+    }
+
+    .description-container i {
+        line-height: 5px;
+        cursor: pointer;
+    }
+
+    .col-2 {
+        width: 80%;
+        height: 340px;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .img-container {
+        text-align: center;
+
+    }
+
+    .img-box {
+        width: 30%;
+        height: 220px;
+        float: left;
+        padding: 10px;
+        margin: 16px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 10px #ddd;
+        box-sizing: border-box;
+    }
+
+    .img-button {
+        width: 100px;
+        height: 40px;
+        color: white;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        font-family: sans-serif;
+        box-shadow: none;
+        background-color: rgb(250, 166, 77);
+        outline: none;
+    }
+
+    .img-button:hover {
+        background-color: #FF8503;
+        cursor: pointer;
+    }
+
+    .row-2 {
+        width: 100%;
+        height: 350px;
+        float: left;
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+    .img-box-2 {
+        width: 22%;
+        height: 220px;
+        float: left;
+        padding: 10px;
+        margin: 16px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 10px #ddd;
+        box-sizing: border-box;
+    }
+
+    /*end section coding*/
+    /*start footer coding*/
+
+    .footer {
+        width: 100%;
+        height: 220px;
+        float: left;
+        margin-top: 40px;
+        background-color: black;
+    }
+
+    .first-footer,
+    .second-footer,
+    .third-footer,
+    .fourth-footer {
+        width: 24%;
+        height: 220px;
+        float: left;
+        line-height: 25px;
+        color: gray;
+    }
+
+    .icon-box i:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .second-footer i:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .third-footer i:hover {
+        color: white;
+        cursor: pointer;
+    }
+
+    .powerby {
+        width: 100%;
+        height: 60px;
+        float: left;
+        padding-top: 10px;
+        margin-bottom: 0;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    /*end footer coding */
+</style>
+
+<body>
+    <!--start header coding-->
+    <header>
+        <div class="logo-content">
+            <img src="photos/TheSweetShop.png">
+        </div>
+        <div class="address-content">
+            <i> Venue : LBRCE ROAD,<br> MYLAVARAM,ANDHRA PRADESH<br>
+                SUMMER COOL DIARIES</i>
+        </div>
+    </header>
+    <!--end header coding-->
+    <!--start nav coding-->
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="Desserts.html" class="nav-link">Desserts</a></li>
+            <li class="nav-item"><a href="Ice-creams.html" class="nav-link active">Ice-creams</a></li>
+            <li class="nav-item"><a href="Cocktails.html" class="nav-link">Cocktails</a></li>
+            <li class="nav-item"><a href="Juices.html" class="nav-link">Juices</a></li>
+            <li class="nav-item"><a href="Milk-Shakes.html" class="nav-link">Milk-Shakes</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+            <li class="nav-item" style="float:right;"><a href="login.html" class="nav-link">Login & Signup</a></li>
+        </ul>
+        <a href="cart.html"><i class="fa fa-shopping-cart"
+                style="color: white;float:right;margin-right:30px;font-size:18px;"> Cart<div
+                    style="width:20px;height:20px;background-color:yellow; float: right;margin-left:7px;border-radius:40%;text-align: center;color: black;">
+                    <span>1</span></div></i></a>
+        <i class="fa fa-search" style="color: white;float:right;margin-right:30px;font-size:18px;cursor: pointer;"
+            onclick="demo()"></i>
+    </nav>
+    <!--end nav coding-->
+    
+
+    <!--start introduction with photo-->
+    <div class="introduction-pic">
+        <img src="photos/savories_1.jpg" width="100%">
+    </div>
+    <!--start introduction with photo-->
+
+
+    <div class="row-2">
+        <div class="img-box-2">
+            <img src="https://sandhyahariharan.co.uk/wp-content/uploads/2018/05/mango-ice-cream-1-of-3-min.jpg" width="90%" height="200px;">
+            <h4>Mango</h4>
+            <i class="price">Rs.50</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://media.istockphoto.com/id/936205270/photo/chocolate-ice-cream-in-a-glass-cup.jpg?s=170667a&w=0&k=20&c=dm56Mocd_EJpVgLNmDd1z84KVkkvE_Gwh8mnOsyuSzI=" width="90%" height="200px;">
+            <h4>Chocolate</h4>
+            <i class="price">Rs.50</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://assets.vogue.in/photos/614dde66af5ef00a626976e0/2:3/w_2560%2Cc_limit/nomou_icecream.jpg" width="90%" height="200px;">
+            <h4>StrawBerry</h4>
+            <i class="price">Rs.60</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe0t-mj0DEpv0t9CCswNHrXE-B3QKXndnOb1awqYftpfmVcZVWl3XMZLu2VRjc-Qh9ejo&usqp=CAU" width="100%" height="200px;">
+            <h4>Oreo</h4>
+            <i class="price">Rs.80</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="row-2">
+        <div class="img-box-2">
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2022/05/ice-cream-flavors-vanilla.jpg.webp" width="100%" height="200px;">
+            <h4>Vanilla</h4>
+            <i class="price">Rs.170</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2022/05/ice-cream-flavors-chocolate-chip.jpg.webp" width="100%" height="200px;">
+            <h4>Chocolate Chip</h4>
+            <i class="price">Rs.120</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2022/05/ice-cream-flavors-mint-chocolate-chip.jpg.webp" width="100%" height="200px;">
+            <h4>Butter Pecan</h4>
+            <i class="price">Rs.200</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2022/05/ice-cream-flavors-butter-pecan.jpg.webp" width="100%" height="200px;">
+            <h4>Matcha</h4>
+            <i class="price">Rs.160</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+    </div>
+
+
+    <div class="row-2">
+        <div class="img-box-2">
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2022/05/ice-cream-flavors-matcha.jpg.webp" width="100%" height="200px;">
+            <h4> Eggnog</h4>
+            <i class="price">Rs.120</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2022/05/ice-cream-flavors-eggnog.jpg.webp" width="100%" height="200px;">
+            <h4>Teaberry</h4>
+            <i class="price">Rs.110</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2022/05/ice-cream-flavors-teaberry.jpg.webp" width="100%" height="200px;">
+            <h4>Neapolitan</h4>
+            <i class="price">Rs.130</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+        <div class="img-box-2">
+            <img src="https://www.willflyforfood.net/wp-content/uploads/2022/05/ice-cream-flavors-neapolitan2.jpg.webp" width="100%" height="200px;">
+            <h4> Moose Tracks</h4>
+            <i class="price">Rs.160</i><br><br>
+            <button class="img-button" onclick="abs()">Add to Cart</button>
+        </div>
+    </div>
+    </section>
+    <!--end section coding-->
+    <!--start footer coding-->
+    <footer class="footer">
+        <div class="first-footer" style="padding-left:30px;">
+            <h3><i>Address</i></h3>
+            <i> Venue : LBRCE ROAD,<br>MYLAVARAM,ANDHRA PRADESH<br>
+                Phone No : 9876543210<br>
+                Another no : 123456789<br>
+                Email:kiranmai1234@gmail.com
+            </i>
+        </div>
+
+        <div class="second-footer">
+            <h3><i>Policy Information</i></h3>
+            <i>Privacy Policy</i><br>
+            <i>Cancellation and Return Policy</i><br>
+            <i>Contact Us</i><br>
+            <i>Shop Locator</i>
+
+        </div>
+
+        <div class="third-footer">
+            <h3><i>Useful Links</i></h3>
+            <i>Home</i><br>
+            <i>Desserts</i><br>
+            <i>Ice-Creams</i><br>
+            <i>Cocktails</i><br>
+            <i>Juices</i><br>
+            <i>Milk-Shakes</i>
+
+
+        </div>
+        <div class="fourth-footer">
+            <h3><i>Social Links</i></h3>
+            <div class="icon-box">
+                <i class="fa fa-facebook" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Facebook</i>
+            </div>
+
+            <div class="icon-box">
+                <i class="fa fa-google-plus" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Google</i>
+            </div>
+
+            <div class="icon-box">
+                <i class="fa fa-twitter" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Twitter</i>
+            </div>
+            <div class="icon-box">
+                <i class="fa fa-instagram" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Instagram</i>
+            </div>
+            <div class="icon-box">
+                <i class="fa fa-pinterest" style="float:left;padding-right: 10px;padding-top:5px;"></i>
+                <i>Pinterest</i>
+            </div>
+        </div>
+    </footer>
+
+    <!--end footer coding-->
+    <!--start power by coding-->
+    <div class="powerby">
+        <h4><i>Copyright © 2023 POWERED BY KIRANMAI</i></h4>
+    </div>
+    <!--end power by coding-->
+    <!--start search box coding-->
+
+    <script>
+        function demo() {
+            var x = document.getElementById("search-box");
+            if (x.style.display == "none")
+                x.style.display = "block";
+            else if (x.style.display == 'block')
+                x.style.display = "none";
+        }
+        function abs(){
+        swal("Good job!", "You clicked the button!", "success");
+       }
+    </script>
+    <!--end search box coding-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
